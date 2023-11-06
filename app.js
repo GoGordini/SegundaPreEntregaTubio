@@ -10,6 +10,7 @@ import ChatManager from "./dao/dbManager/chat.manager.js";
 const chatManager= new ChatManager();
 import ProductManager from "./dao/dbManager/products.manager.js";
 const productManager= new ProductManager();
+import axios from "axios";
 
 const app = express ();
 

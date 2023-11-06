@@ -19,7 +19,7 @@
                 <li>category: {{this.category}}</li>
 </ul>
      {{!-- <div><button onclick="addToCart(this._id)">Agregar al carrito</button></div> --}}
-   <div>  <button onclick="addToCart()">Agregar al carrito</button></div>
+   <div>  <button class="addButton" id="{{this._id}}" onclick="addToCart({{this.name}})">Agregar al carrito</button></div>
      </br>
      {{/each}}
      {{#if hasPrevPage }}
